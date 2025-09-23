@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Greet } from "./components/greet";
+import { Counter } from "./components/count";
 
 export default function Home() {
   return (
@@ -21,7 +23,13 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
+            Hello World!
+          </li>
+          <li>
+            <Greet/>
+          </li>
+          <li>
+            <Counter/>
           </li>
         </ol>
 
